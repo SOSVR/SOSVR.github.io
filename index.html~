@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>SOSVR</title>
+    <title>S.O.S VR</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -16,8 +16,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">Sosvr.GitHub.io</h1>
-        <p class="header">TEAM SOSVR HOME PAGE</p>
+        <h3 class="header" style="color: white;">SOSVR.GitHub.io</h3>
+        <p class="header">TEAM S.O.S VR HOME PAGE</p>
 
 
 
@@ -30,35 +30,39 @@
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
 
-<p>Maybe it’s time for humankind to take advantage of robots’ aid in tough situations such as earthquakes, floods, natural disasters and urban accidents. In these cases, even if smart and automatic robots save a single person’s life, science has reached its goal!
-
-We aim to develop basic modules for the challenge which later can form a framework where they interact with each other. This document briefly explains these
-modules and the framework that we are prototyping to optimize them with
-respect to the tasks in the challenge.
-
-
-Therefore, as discussed in the “future of robot rescue simulation” workshop, our team has designed a new structure of ros framework and Gazebo simulation environment that we’re going to explain its details in the following.
-We the ”S.O.S VR” are participating in RoboCup Rescue Virtual Robot for the first time, yet our team has already been the winner of agent simulation league in two tournaments.</p>
+<p>We all know that natural disasters and accidents take a huge toll on us and the people we love. Although we cannot prevent these kind of accidents (Atleast not yet), we can use our tools and technology to aid us in these situations.
+That’s what we are trying to achieve here specifically by using robots. Our main goal is to develop basic modules that can later be used in a bigger framework and interact with each other.
+The team description paper briefly explains these modules and the framework that we are prototyping to optimize them with respect to the tasks in the challenge. Therefore, as discussed in the “future of robot rescue simulation” workshop, our team has designed a new structure of ros framework and Gazebo simulation environment that we’re going to explain its details in the following. We the ”S.O.S VR” are participating in RoboCup Rescue Virtual Robot for the first time, yet our team has already been the winner of agent simulation league in two tournaments.</p>
 
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team Descriptions and Technical Reports</h3>
 
 <ul>
-  <li><a href="https://raw.githubusercontent.com/SOSVR/SOSVR.github.io/master/tdp/tdp2016.pdf">TDP -Robocup Robot Rescue -Virtual Robots 2016 Leipzig</a></li>
+  <li><a href="https://raw.githubusercontent.com/SOSVR/SOSVR.github.io/master/tdp/tdp2016.pdf" download="TeamSOSVRRobotRescueTDP2016.pdf" >TDP-Robocup Robot Rescue-Virtual Robots 2016 Leipzig</a></li>
 </ul> 
 <h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
+<a id="new development" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+What we are developing now ?</h3>
+<p>We are working on creating base packages in four main parts: </p>
+<ul>
+  <li><strong>Framework</strong></li>
+<ul>
+  <li>task1</li>
+</ul> 
+  <li><strong>Navigation</strong></li>
+  <li><strong>Human Detection</strong></li>
+  <li><strong>Strategy/logic</strong></li>
+</ul> 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team Members</h3>
 
 <ul>
   <li>Reyhane Pahlavan</li>
   <li>Taher Ahmadi</li>
-  <li>Sajjad Azami</li>
+  <li>Sajad Azami</li>
   <li>Mohamad Amin Mohamadi</li>
+  <li>Aref Moradi</li>
+  <li>Sadegh Mahmoudpour</li>
   <li>Narges Sayyah</li>
 </ul> 
 
