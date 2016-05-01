@@ -38,38 +38,54 @@ The team description paper briefly explains these modules and the framework that
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team Descriptions and Technical Reports</h3>
 
 <ul>
-  <li><a href="https://raw.githubusercontent.com/SOSVR/SOSVR.github.io/master/tdp/tdp2016.pdf" download="TeamSOSVRRobotRescueTDP2016.pdf" >TDP-Robocup Robot Rescue-Virtual Robots 2016 Leipzig</a></li>
+  <li><a href="https://raw.githubusercontent.com/SOSVR/SOSVR.github.io/master/tdp/tdp2016.pdf#page=1" download="TeamSOSVRRobotRescueTDP2016.pdf" >TDP-Robocup Robot Rescue-Virtual Robots 2016 Leipzig</a></li>
 </ul> 
 <h3>
 <a id="new development" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
 What we are developing now ?</h3>
 <p>We are working on creating base packages in four main parts: </p>
 <ul>
-  <li><strong>Framework</strong></li>
+  <li><strong>Framework</strong><p>Sajad Azami, Aref Moradi, Mohamad Amin Mohamadi</p></li>
+<ul>
+  <li>ROS-Gazebo: Done!</li>
+  <li>Structure: Working On!</li>
+</ul> 
+  <li><strong>Navigation</strong><p>Taher Ahmadi, Sajad Azami</p></li>
+<ul>
+  <li>GMapping: </li>
+  <li>task1: </li>
+  <li>task2: </li>
+</ul> 
+  <li><strong>Human Detection</strong><p>Sadegh Mahmoudpour</p></li>
 <ul>
   <li>task1</li>
+  <li>task2</li>
+  <li>task3</li>
 </ul> 
-  <li><strong>Navigation</strong></li>
-  <li><strong>Human Detection</strong></li>
-  <li><strong>Strategy/logic</strong></li>
+  <li><strong>Strategy/Logic</strong><p>Taher Ahmadi, Aref Moradi, Sajad Azami</p></li>
+<ul>
+  <li>task1</li>
+  <li>task2</li>
+  <li>task3</li>
+</ul> 
 </ul> 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team Members</h3>
 
 <ul>
-  <li>Reyhane Pahlavan</li>
-  <li>Taher Ahmadi</li>
-  <li>Sajad Azami</li>
-  <li>Mohamad Amin Mohamadi</li>
-  <li>Aref Moradi</li>
-  <li>Sadegh Mahmoudpour</li>
-  <li>Narges Sayyah</li>
+  <li>Reyhane Pahlavan <a href="https://pages.github.com">GitHub Pages</a></li>
+  <li>Taher Ahmadi <a href="mailto:14taher@gmail.com">Email</a>, <a href="http://github.com/taherahmadi">GitHub</a>, <a href="mailto:taherahmadi@aut.ac.ir">Academic Mail</a></li>
+  <li>Sajad Azami <a href="mailto:sajjadaazami@gmail.com">Email</a>, <a href="http://github.com/SajadAzami">GitHub</a>, <a href="mailto:sajadazami@aut.ac.ir">Academic Mail</a> </li>
+  <li>Mohamad Amin Mohamadi <a href="https://pages.github.com">REF</a></li>
+  <li>Aref Moradi <a href="mailto:rfmrd619@gmail.com">Email</a>, <a href="https://github.com/rfmrd25">GitHub</a></li>
+  <li>Sadegh Mahmoudpour <a href="mailto:mahmoudpour.sadegh@gmail.com">Email</a>, <a href="http://github.com/SadeghMahmoudpour">GitHub</a></li>
+  <li>Narges Sayyah <a href="https://pages.github.com">REF</a></li>
 </ul> 
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Send us email at <a href="mailto:14taher@gmail.com">14taher@gmail.com</a><br>CallNumber: +98 919 476 18 30</p>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
