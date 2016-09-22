@@ -263,7 +263,37 @@ header ul {
   padding:0;
 }
 
+footer ul {
+  list-style:none;
+  padding:0;
+}
+
 header li {
+	list-style-type: none;
+  width:132px;
+  height:15px;
+	margin-bottom: 12px;
+	line-height: 1em;
+	padding: 6px 6px 6px 7px;
+
+	background: #AF0011;
+	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: linear-gradient(top, #AF0011 0%,#820011 100%);
+
+	border-radius:4px;
+  border:1px solid #0D0D0D;
+
+	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+
+}
+footer li {
+    -webkit-text-fill-color: #FFFFFF;
+
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -297,6 +327,16 @@ header li:hover {
   background: linear-gradient(top, #C3001D 0%,#950119 100%);
 }
 
+footer li:hover {
+	background: #C3001D;
+	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: linear-gradient(top, #C3001D 0%,#950119 100%);
+}
+
 a.buttons {
 	-webkit-font-smoothing: antialiased;
 	background: url(../images/arrow-down.png) no-repeat;
@@ -308,6 +348,10 @@ a.buttons {
 
 a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
+}
+
+a.about {
+    background: none, no-repeat;
 }
 
 a.buttons:hover {
@@ -372,6 +416,12 @@ footer {
     right:130px;
     top:84px;
   }
+
+  footer ul {
+    position:absolute;
+    right:130px;
+    top:84px;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -396,11 +446,19 @@ footer {
   header ul, header p.view {
     position:static;
   }
+
+    footer ul, header p.view {
+    position:static;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
 
   header ul li.download {
+    display:none;
+  }
+
+  footer ul li.download {
     display:none;
   }
 
